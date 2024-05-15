@@ -27,7 +27,7 @@ const QuizElement = ({ questions, currentQuestion, setCurrentQuestion }) => {
       correctChoice
         ? {
             ...prev,
-            score: prev.score + 10,
+            score: prev.score + 1,
             correctAnswers: prev.correctAnswers + 1,
           }
         : {
